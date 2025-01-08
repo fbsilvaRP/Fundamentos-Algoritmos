@@ -9,7 +9,7 @@ Início
 	calc <- 0
 	Repita
 		pi <- pi_aux						//pi recebe o valor de pi calculado na iteração anterior
-		num <- num * (-1)						//A cada iteração, -1 é multiplicado por -1: (-1)^i, i é a iteração atual
+		num <- num * (-1)					//A cada iteração, -1 é multiplicado por -1: (-1)^i, i é a iteração atual
 		acum <- acum + num / (i * 2 + 1)			//acum acumula a série de elementos calculada
 		pi_aux <- 4 * acum					//pi_aux recebe o valor parcial de pi calculado na atual iteração
 		i <- i + 1; 						//Incremento de i a cada iteração
