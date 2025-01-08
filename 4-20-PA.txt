@@ -1,0 +1,25 @@
+Elabore um algoritmo em Portugol que leia um número n (o número de termos de uma progressão aritmética), a1 (o primeiro termo da progressão), e r (razão), e escreva todos os termos dessa progressão, bem como a soma dos elementos
+
+Início 
+	n <- 0
+	a1 <- 0
+	r <- 0 
+	acum <- 0
+	termo <- 0
+	Escreva("Digite o número de termos desejado: ")
+	Ler(n)
+	Escreva("Digite o termo inicial da progressão (a1)")
+	Ler(a1)
+	Escreva("Digite a razão da progressão: ")
+	Ler(r)
+	Para i <- 1 Até n Faça
+		termo <- a1 + (i  - 1) * r	//Calcula o termo da PA
+		acum <- acum + termo 		//Acumula o termo da PA calculado
+		Exibir(termo, ', ')		//Exibe o termo da PA calculado
+	Fim Para
+	Exibir('Soma dos termos da PA: ', acum)
+Fim
+		
+		  
+	 
+		
